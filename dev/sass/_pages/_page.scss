@@ -1,1 +1,20 @@
-//
+.hero {
+    width: 100%;
+    height: 334px;
+    background: url(../img/hero-bg.jpeg) no-repeat center center/cover;
+    position: relative;
+    z-index: 0;
+
+    &:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgb(130, 143, 80, .5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}

@@ -23,5 +23,8 @@
     "gulp-uglify-es": "^3.0.0",
     "gulp-util": "^3.0.8",
     "sass": "^1.71.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
   }
 }

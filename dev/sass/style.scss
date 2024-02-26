@@ -1,5 +1,7 @@
 @import "_mixins/settings";
 @import "_mixins/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 
 /* default styles */
 @import "_default/default";
@@ -7,7 +9,7 @@
 @import "_default/header";
 
 //blocks
-@import "_blocks/block";
+@import "_blocks/menu";
 //pages
 @import "_pages/page";
 
