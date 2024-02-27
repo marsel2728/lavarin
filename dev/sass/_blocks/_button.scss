@@ -1,0 +1,27 @@
+.button {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    &-center {
+        justify-content: center;
+    }
+}
+
+.bn {
+    width: 200px;
+    height: 50px;
+    border: 1.5 solid;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    &-green {
+        background: $green;
+        color: $white;
+        border: 1.5px solid $green;
+        line-height: 46px;
+        &:hover {
+            background: $white;
+            color: $green;
+        }
+    }
+}
