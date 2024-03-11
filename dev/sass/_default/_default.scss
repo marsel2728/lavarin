@@ -6,11 +6,11 @@
 
  body {
      font-size: 16px;
-     line-height: 1.4;
+     line-height: 28px;
      color: $black;
      background: $white;
      font-family: $roboto;
-     font-weight: 400;
+     font-weight: 300;
      margin: 0;
      padding: 0;
      height: 100%;
@@ -252,3 +252,21 @@
  .align-bottom {
     align-items: flex-end;
  }
+
+ .purple-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: $purple-text;
+    position: relative;
+    padding-bottom: 10px;
+    &:after {
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: $purple-text;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+    }
+    }
